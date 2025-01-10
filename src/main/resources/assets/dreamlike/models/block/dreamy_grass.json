@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "minecraft:block/coarse_dirt",
-    "up": "dreamlike:block/dreamgrass",
-    "north": "minecraft:block/coarse_dirt",
-    "east": "minecraft:block/coarse_dirt",
-    "south": "minecraft:block/coarse_dirt",
-    "west": "minecraft:block/coarse_dirt",
-    "particle": "minecraft:block/coarse_dirt"
+    "down": "dreamlike:block/dreamgrass",
+    "up": "dreamlike:block/dreamydirttop",
+    "north": "dreamlike:block/dreamgrass",
+    "east": "dreamlike:block/dreamgrass",
+    "south": "dreamlike:block/dreamgrass",
+    "west": "dreamlike:block/dreamgrass",
+    "particle": "dreamlike:block/dreamgrass"
   },
   "render_type": "solid"
 }
