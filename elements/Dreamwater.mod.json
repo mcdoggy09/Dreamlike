@@ -4,8 +4,8 @@
   "definition": {
     "name": "Dreamwater",
     "bucketName": "Dreamwater Bucket",
-    "textureStill": "dreamwaterv1",
-    "textureFlowing": "dreamwaterflowingv2",
+    "textureStill": "dreamwatertill",
+    "textureFlowing": "dreamwaterflowing",
     "tintType": "No tint",
     "canMultiply": true,
     "flowRate": 5,

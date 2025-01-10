@@ -18,10 +18,10 @@
       "registry_name": "dreamy_grass",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dreamlike/models/block/dreamy_grass.json",
+          "src/main/resources/assets/dreamlike/blockstates/dreamy_grass.json",
           "src/main/java/net/mcreator/dreamlike/block/DreamyGrassBlock.java",
           "src/main/resources/data/dreamlike/loot_tables/blocks/dreamy_grass.json",
-          "src/main/resources/assets/dreamlike/blockstates/dreamy_grass.json",
-          "src/main/resources/assets/dreamlike/models/block/dreamy_grass.json",
           "src/main/resources/assets/dreamlike/models/item/dreamy_grass.json"
         ]
       }
@@ -35,10 +35,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/dreamlike/block/DreamylushgrassBlock.java",
-          "src/main/resources/data/dreamlike/loot_tables/blocks/dreamylushgrass.json",
-          "src/main/resources/assets/dreamlike/models/item/dreamylushgrass.json",
           "src/main/resources/assets/dreamlike/models/block/dreamylushgrass.json",
-          "src/main/resources/assets/dreamlike/blockstates/dreamylushgrass.json"
+          "src/main/resources/assets/dreamlike/blockstates/dreamylushgrass.json",
+          "src/main/resources/assets/dreamlike/models/item/dreamylushgrass.json",
+          "src/main/resources/data/dreamlike/loot_tables/blocks/dreamylushgrass.json"
         ]
       }
     },
@@ -50,11 +50,11 @@
       "registry_name": "dreamycobblestone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamlike/block/DreamycobblestoneBlock.java",
-          "src/main/resources/assets/dreamlike/blockstates/dreamycobblestone.json",
           "src/main/resources/assets/dreamlike/models/block/dreamycobblestone.json",
           "src/main/resources/data/dreamlike/loot_tables/blocks/dreamycobblestone.json",
-          "src/main/resources/assets/dreamlike/models/item/dreamycobblestone.json"
+          "src/main/resources/assets/dreamlike/models/item/dreamycobblestone.json",
+          "src/main/java/net/mcreator/dreamlike/block/DreamycobblestoneBlock.java",
+          "src/main/resources/assets/dreamlike/blockstates/dreamycobblestone.json"
         ]
       }
     },
@@ -92,8 +92,8 @@
       "registry_name": "blood_scythe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamlike/item/BloodScytheItem.java",
-          "src/main/resources/assets/dreamlike/models/item/blood_scythe.json"
+          "src/main/resources/assets/dreamlike/models/item/blood_scythe.json",
+          "src/main/java/net/mcreator/dreamlike/item/BloodScytheItem.java"
         ]
       }
     },
@@ -123,8 +123,8 @@
       "registry_name": "fireygreatstaff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dreamlike/models/item/fireygreatstaff.json",
-          "src/main/java/net/mcreator/dreamlike/item/FireygreatstaffItem.java"
+          "src/main/java/net/mcreator/dreamlike/item/FireygreatstaffItem.java",
+          "src/main/resources/assets/dreamlike/models/item/fireygreatstaff.json"
         ]
       }
     },
@@ -221,11 +221,11 @@
       "registry_name": "cosmos_armour",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dreamlike/models/item/cosmos_armour_leggings.json",
-          "src/main/resources/assets/dreamlike/models/item/cosmos_armour_boots.json",
           "src/main/java/net/mcreator/dreamlike/item/CosmosArmourItem.java",
-          "src/main/resources/assets/dreamlike/models/item/cosmos_armour_helmet.json",
-          "src/main/resources/assets/dreamlike/models/item/cosmos_armour_chestplate.json"
+          "src/main/resources/assets/dreamlike/models/item/cosmos_armour_chestplate.json",
+          "src/main/resources/assets/dreamlike/models/item/cosmos_armour_boots.json",
+          "src/main/resources/assets/dreamlike/models/item/cosmos_armour_leggings.json",
+          "src/main/resources/assets/dreamlike/models/item/cosmos_armour_helmet.json"
         ]
       }
     },
@@ -287,9 +287,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/dreamlike/loot_tables/blocks/angelsand.json",
+          "src/main/resources/assets/dreamlike/models/item/angelsand.json",
           "src/main/resources/assets/dreamlike/models/block/angelsand.json",
           "src/main/resources/assets/dreamlike/blockstates/angelsand.json",
-          "src/main/resources/assets/dreamlike/models/item/angelsand.json",
           "src/main/java/net/mcreator/dreamlike/block/AngelsandBlock.java"
         ]
       }
@@ -393,6 +393,7 @@
       "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
       "block.dreamlike.dreamy_grass": "Dreamy Grass",
       "fluid.dreamlike.dreamwater": "Dreamwater",
+      "fluid.dreamlike.dreamwaternocolor": "Dreamwaternocolor",
       "item_group.dreamlike.dreamlike": "Dreamlike",
       "item.dreamlike.little_bertha": "Little Bertha",
       "item.dreamlike.dreamwater_bucket": "Dreamwater Bucket",
@@ -400,13 +401,16 @@
       "item.dreamlike.cosmos_armour_chestplate": "Cosmos Armour Chestplate",
       "item.dreamlike.decimator": "Decimator",
       "item.dreamlike.terminator": "Terminator",
+      "item.dreamlike.magnium_ingot": "Magniun Ingot",
       "item.dreamlike.cosmos_armour_boots": "Cosmos Armour Boots",
+      "item.dreamlike.dreamwaternocolor_bucket": "Dreamwaternocolor Buckett",
       "item.dreamlike.cosmos_armour_leggings": "Cosmos Armour Leggings",
       "item.dreamlike.cosmos_armour_helmet": "Cosmos Armour Helmet",
       "item.dreamlike.blood_scythe": "Blood Scythe",
       "block.dreamlike.dreamwater": "Dreamwater",
       "block.dreamlike.angelsand": "Angelsand",
       "block.dreamlike.dreamycobblestone": "Dreamycobblestone",
+      "block.dreamlike.dreamwaternocolor": "Dreamwaternocolor",
       "item.dreamlike.fireygreatstaff": "Firey great staff"
     }
   },

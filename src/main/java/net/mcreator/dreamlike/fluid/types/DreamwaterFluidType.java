@@ -1,6 +1,17 @@
 
 package net.mcreator.dreamlike.fluid.types;
 
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fluids.FluidType;
+import net.minecraftforge.common.SoundActions;
+import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
+
+import net.minecraft.world.item.Rarity;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.resources.ResourceLocation;
+
+import java.util.function.Consumer;
+
 public class DreamwaterFluidType extends FluidType {
 	public DreamwaterFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.007D).lightLevel(2).density(1054).viscosity(1094).canConvertToSource(true).rarity(Rarity.EPIC)
@@ -11,7 +22,7 @@ public class DreamwaterFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("dreamlike:block/dreamwaterv1"), FLOWING_TEXTURE = new ResourceLocation("dreamlike:block/dreamwaterflowingv2");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("dreamlike:block/dreamwatertill"), FLOWING_TEXTURE = new ResourceLocation("dreamlike:block/dreamwaterflowing");
 
 			@Override
 			public ResourceLocation getStillTexture() {
