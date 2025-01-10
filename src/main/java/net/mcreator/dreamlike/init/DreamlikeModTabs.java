@@ -34,6 +34,7 @@ public class DreamlikeModTabs {
 				tabData.accept(DreamlikeModBlocks.ANGELSAND.get().asItem());
 				tabData.accept(DreamlikeModItems.DREAMWATER_BUCKET.get());
 				tabData.accept(DreamlikeModItems.DREAMWATERNOCOLOR_BUCKET.get());
+				tabData.accept(DreamlikeModItems.MAGNIUM_INGOT.get());
 			})
 
 					.build());

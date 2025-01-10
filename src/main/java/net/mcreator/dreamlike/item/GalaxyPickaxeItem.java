@@ -1,27 +1,15 @@
 
 package net.mcreator.dreamlike.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.InteractionHand;
-
-import net.mcreator.dreamlike.procedures.GalaxyPickaxeRightclickedProcedure;
-
 public class GalaxyPickaxeItem extends PickaxeItem {
 	public GalaxyPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 5000;
 			}
 
 			public float getSpeed() {
-				return 8.5f;
+				return 18f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -29,23 +17,23 @@ public class GalaxyPickaxeItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 0;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties().fireResistant());
+		}, 1, -2.5f, new Item.Properties().fireResistant());
 	}
 
 	@Override
-	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
-		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		GalaxyPickaxeRightclickedProcedure.execute(entity);
-		return ar;
+	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
+		boolean retval = super.mineBlock(itemstack, world, blockstate, pos, entity);
+		GalaxyPickaxeBlockDestroyedWithToolProcedure.execute(entity);
+		return retval;
 	}
 }

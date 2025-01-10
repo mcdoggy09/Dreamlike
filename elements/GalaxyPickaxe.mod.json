@@ -17,22 +17,22 @@
         "value": "CUSTOM:Dreamlike"
       }
     ],
-    "efficiency": 8.5,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
+    "efficiency": 18.0,
+    "attackSpeed": 1.5,
+    "enchantability": 15,
     "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "usageCount": 5000,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [],
     "immuneToFire": true,
-    "blockDropsTier": "WOOD",
+    "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "GalaxyPickaxeRightclicked"
+    "onBlockDestroyedWithTool": {
+      "name": "GalaxyPickaxeBlockDestroyedWithTool"
     }
   }
 }

@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.dreamlike.item.TerminatorItem;
+import net.mcreator.dreamlike.item.OsMagniunIngotItem;
 import net.mcreator.dreamlike.item.LittleBerthaItem;
 import net.mcreator.dreamlike.item.GalaxyPickaxeItem;
 import net.mcreator.dreamlike.item.FireygreatstaffItem;
@@ -41,6 +42,7 @@ public class DreamlikeModItems {
 	public static final RegistryObject<Item> ANGELSAND = block(DreamlikeModBlocks.ANGELSAND);
 	public static final RegistryObject<Item> DREAMWATER_BUCKET = REGISTRY.register("dreamwater_bucket", () -> new DreamwaterItem());
 	public static final RegistryObject<Item> DREAMWATERNOCOLOR_BUCKET = REGISTRY.register("dreamwaternocolor_bucket", () -> new DreamwaternocolorItem());
+	public static final RegistryObject<Item> MAGNIUM_INGOT = REGISTRY.register("magnium_ingot", () -> new OsMagniunIngotItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
