@@ -18,10 +18,10 @@
       "registry_name": "dreamy_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dreamlike/models/block/dreamy_grass.json",
-          "src/main/resources/assets/dreamlike/blockstates/dreamy_grass.json",
           "src/main/java/net/mcreator/dreamlike/block/DreamyGrassBlock.java",
           "src/main/resources/data/dreamlike/loot_tables/blocks/dreamy_grass.json",
+          "src/main/resources/assets/dreamlike/blockstates/dreamy_grass.json",
+          "src/main/resources/assets/dreamlike/models/block/dreamy_grass.json",
           "src/main/resources/assets/dreamlike/models/item/dreamy_grass.json"
         ]
       }
@@ -35,23 +35,127 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/dreamlike/block/DreamylushgrassBlock.java",
-          "src/main/resources/assets/dreamlike/models/block/dreamylushgrass.json",
-          "src/main/resources/assets/dreamlike/blockstates/dreamylushgrass.json",
+          "src/main/resources/data/dreamlike/loot_tables/blocks/dreamylushgrass.json",
           "src/main/resources/assets/dreamlike/models/item/dreamylushgrass.json",
-          "src/main/resources/data/dreamlike/loot_tables/blocks/dreamylushgrass.json"
+          "src/main/resources/assets/dreamlike/models/block/dreamylushgrass.json",
+          "src/main/resources/assets/dreamlike/blockstates/dreamylushgrass.json"
+        ]
+      }
+    },
+    {
+      "name": "Dreamycobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamycobblestone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/block/DreamycobblestoneBlock.java",
+          "src/main/resources/assets/dreamlike/blockstates/dreamycobblestone.json",
+          "src/main/resources/assets/dreamlike/models/block/dreamycobblestone.json",
+          "src/main/resources/data/dreamlike/loot_tables/blocks/dreamycobblestone.json",
+          "src/main/resources/assets/dreamlike/models/item/dreamycobblestone.json"
+        ]
+      }
+    },
+    {
+      "name": "LittleBertha",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_bertha",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dreamlike/models/item/little_bertha.json",
+          "src/main/java/net/mcreator/dreamlike/item/LittleBerthaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Decimator",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decimator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/item/DecimatorItem.java",
+          "src/main/resources/assets/dreamlike/models/item/decimator.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodScythe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_scythe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/item/BloodScytheItem.java",
+          "src/main/resources/assets/dreamlike/models/item/blood_scythe.json"
+        ]
+      }
+    },
+    {
+      "name": "FireygreatstaffLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireygreatstaff_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/procedures/FireygreatstaffLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fireygreatstaff",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireygreatstaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dreamlike/models/item/fireygreatstaff.json",
+          "src/main/java/net/mcreator/dreamlike/item/FireygreatstaffItem.java"
         ]
       }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Fireygreatstaff"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Decimator"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:LittleBertha"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:BloodScythe"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.dreamlike.dreamy_grass": "Dreamy Grass",
       "item_group.dreamlike.dreamlike": "Dreamlike",
-      "block.dreamlike.dreamylushgrass": "Dreamylushgrass"
+      "item.dreamlike.little_bertha": "Little Bertha",
+      "item.dreamlike.blood_scythe": "Blood Scythe",
+      "block.dreamlike.dreamylushgrass": "Dreamylushgrass",
+      "block.dreamlike.dreamycobblestone": "Dreamycobblestone",
+      "item.dreamlike.decimator": "Decimator",
+      "item.dreamlike.fireygreatstaff": "Firey great staff"
     }
   },
   "foldersRoot": {

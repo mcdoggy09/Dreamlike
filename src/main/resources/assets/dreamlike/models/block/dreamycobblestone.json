@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dreamlike:block/dreamycobble",
+    "up": "dreamlike:block/dreamycobble",
+    "north": "dreamlike:block/dreamycobble",
+    "east": "dreamlike:block/dreamycobble",
+    "south": "dreamlike:block/dreamycobble",
+    "west": "dreamlike:block/dreamycobble",
+    "particle": "dreamlike:block/dreamycobble"
+  },
+  "render_type": "solid"
+}

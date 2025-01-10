@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "dreamgrass",
-    "textureTop": "dreamydirttop",
-    "textureLeft": "dreamgrass",
-    "textureFront": "dreamgrass",
-    "textureRight": "dreamgrass",
-    "textureBack": "dreamgrass",
+    "texture": "dreamycobble",
+    "textureTop": "dreamycobble",
+    "textureLeft": "dreamycobble",
+    "textureFront": "dreamycobble",
+    "textureRight": "dreamycobble",
+    "textureBack": "dreamycobble",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Dreamy Grass",
+    "name": "Dreamycobblestone",
     "specialInformation": {
       "fixedValue": []
     },

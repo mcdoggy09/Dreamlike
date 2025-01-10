@@ -8,8 +8,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
-public class DreamyGrassBlock extends Block {
-	public DreamyGrassBlock() {
+public class DreamycobblestoneBlock extends Block {
+	public DreamycobblestoneBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 
