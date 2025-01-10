@@ -1,6 +1,18 @@
 
 package net.mcreator.dreamlike.item;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
+
+import net.mcreator.dreamlike.procedures.GalaxyPickaxeRightclickedProcedure;
+
 public class GalaxyPickaxeItem extends PickaxeItem {
 	public GalaxyPickaxeItem() {
 		super(new Tier() {
@@ -33,7 +45,7 @@ public class GalaxyPickaxeItem extends PickaxeItem {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		GalaxyPickaxeRightclickedProcedure.execute();
+		GalaxyPickaxeRightclickedProcedure.execute(entity);
 		return ar;
 	}
 }
