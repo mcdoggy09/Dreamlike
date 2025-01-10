@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "fluid",
   "definition": {
-    "name": "Dreamwater",
-    "bucketName": "Dreamwater Bucket",
-    "textureStill": "dreamwaterv1",
-    "textureFlowing": "dreamwaterflowingv2",
+    "name": "Dreamwaternocolor",
+    "bucketName": "Dreamwaternocolor Buckett",
+    "textureStill": "nocolordreamwater",
+    "textureFlowing": "nocolordreamwater",
     "tintType": "No tint",
-    "canMultiply": true,
+    "canMultiply": false,
     "flowRate": 5,
     "levelDecrease": 1,
     "slopeFindDistance": 4,
@@ -16,9 +16,9 @@
       "value": "EXPLOSION_NORMAL"
     },
     "flowStrength": 1.0,
-    "luminosity": 2,
-    "density": 1054,
-    "viscosity": 1094,
+    "luminosity": 3,
+    "density": 1000,
+    "viscosity": 1000,
     "temperature": 300,
     "type": "WATER",
     "generateBucket": true,
@@ -29,9 +29,9 @@
       }
     ],
     "emptySound": {
-      "value": "block.water.ambient"
+      "value": ""
     },
-    "rarity": "EPIC",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,6 +42,6 @@
     "tickRate": 0,
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "colorOnMap": "PURPLE"
+    "colorOnMap": "DEFAULT"
   }
 }

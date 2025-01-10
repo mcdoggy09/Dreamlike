@@ -311,12 +311,31 @@
           "src/main/java/net/mcreator/dreamlike/item/DreamwaterItem.java"
         ]
       }
+    },
+    {
+      "name": "Dreamwaternocolor",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamwaternocolor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/fluid/types/DreamwaternocolorFluidType.java",
+          "src/main/resources/assets/dreamlike/blockstates/dreamwaternocolor.json",
+          "src/main/java/net/mcreator/dreamlike/block/DreamwaternocolorBlock.java",
+          "src/main/resources/assets/dreamlike/models/item/dreamwaternocolor_bucket.json",
+          "src/main/java/net/mcreator/dreamlike/fluid/DreamwaternocolorFluid.java",
+          "src/main/resources/assets/dreamlike/models/block/dreamwaternocolor.json",
+          "src/main/java/net/mcreator/dreamlike/item/DreamwaternocolorItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Dreamwaternocolor",
       "~CUSTOM:Dreamwater"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -340,9 +359,10 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
       "block.dreamlike.dreamy_grass": "Dreamy Grass",
+      "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
       "fluid.dreamlike.dreamwater": "Dreamwater",
+      "fluid.dreamlike.dreamwaternocolor": "Dreamwaternocolor",
       "item_group.dreamlike.dreamlike": "Dreamlike",
       "item.dreamlike.little_bertha": "Little Bertha",
       "item.dreamlike.dreamwater_bucket": "Dreamwater Bucket",
@@ -351,12 +371,14 @@
       "item.dreamlike.decimator": "Decimator",
       "item.dreamlike.terminator": "Terminator",
       "item.dreamlike.cosmos_armour_boots": "Cosmos Armour Boots",
+      "item.dreamlike.dreamwaternocolor_bucket": "Dreamwaternocolor Buckett",
       "item.dreamlike.cosmos_armour_leggings": "Cosmos Armour Leggings",
       "item.dreamlike.cosmos_armour_helmet": "Cosmos Armour Helmet",
       "item.dreamlike.blood_scythe": "Blood Scythe",
       "block.dreamlike.dreamwater": "Dreamwater",
       "block.dreamlike.angelsand": "Angelsand",
       "block.dreamlike.dreamycobblestone": "Dreamycobblestone",
+      "block.dreamlike.dreamwaternocolor": "Dreamwaternocolor",
       "item.dreamlike.fireygreatstaff": "Firey great staff"
     }
   },
