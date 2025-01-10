@@ -59,32 +59,6 @@
       }
     },
     {
-      "name": "LittleBertha",
-      "type": "tool",
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "little_bertha",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/dreamlike/models/item/little_bertha.json",
-          "src/main/java/net/mcreator/dreamlike/item/LittleBerthaItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Decimator",
-      "type": "tool",
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "decimator",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamlike/item/DecimatorItem.java",
-          "src/main/resources/assets/dreamlike/models/item/decimator.json"
-        ]
-      }
-    },
-    {
       "name": "BloodScythe",
       "type": "tool",
       "compiles": true,
