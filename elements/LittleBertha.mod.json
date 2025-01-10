@@ -18,18 +18,21 @@
       }
     ],
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "attackSpeed": 1.8,
+    "enchantability": 15,
+    "damageVsEntity": 50.0,
+    "usageCount": 4000,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "LittleBerthaLivingEntityIsHitWithTool"
+    }
   }
 }

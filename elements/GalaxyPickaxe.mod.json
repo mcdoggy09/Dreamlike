@@ -17,10 +17,10 @@
         "value": "CUSTOM:Dreamlike"
       }
     ],
-    "efficiency": 18.0,
+    "efficiency": 22.0,
     "attackSpeed": 1.5,
     "enchantability": 15,
-    "damageVsEntity": 4.0,
+    "damageVsEntity": 7.0,
     "usageCount": 5000,
     "glowCondition": {
       "fixedValue": false

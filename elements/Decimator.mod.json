@@ -17,11 +17,11 @@
         "value": "CUSTOM:Dreamlike"
       }
     ],
-    "efficiency": 4.0,
+    "efficiency": 8.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "enchantability": 15,
+    "damageVsEntity": 24.0,
+    "usageCount": 2000,
     "glowCondition": {
       "fixedValue": false
     },
@@ -30,6 +30,9 @@
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DecimatorLivingEntityIsHitWithTool"
+    }
   }
 }
