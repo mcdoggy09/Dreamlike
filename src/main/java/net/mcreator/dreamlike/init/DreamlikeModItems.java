@@ -17,7 +17,6 @@ import net.mcreator.dreamlike.item.OsMagniunIngotItem;
 import net.mcreator.dreamlike.item.LittleBerthaItem;
 import net.mcreator.dreamlike.item.GalaxyPickaxeItem;
 import net.mcreator.dreamlike.item.FireygreatstaffItem;
-import net.mcreator.dreamlike.item.DreamwaternocolorItem;
 import net.mcreator.dreamlike.item.DreamwaterItem;
 import net.mcreator.dreamlike.item.DecimatorItem;
 import net.mcreator.dreamlike.item.CosmosArmourItem;
@@ -41,7 +40,6 @@ public class DreamlikeModItems {
 	public static final RegistryObject<Item> TERMINATOR = REGISTRY.register("terminator", () -> new TerminatorItem());
 	public static final RegistryObject<Item> ANGELSAND = block(DreamlikeModBlocks.ANGELSAND);
 	public static final RegistryObject<Item> DREAMWATER_BUCKET = REGISTRY.register("dreamwater_bucket", () -> new DreamwaterItem());
-	public static final RegistryObject<Item> DREAMWATERNOCOLOR_BUCKET = REGISTRY.register("dreamwaternocolor_bucket", () -> new DreamwaternocolorItem());
 	public static final RegistryObject<Item> MAGNIUM_INGOT = REGISTRY.register("magnium_ingot", () -> new OsMagniunIngotItem());
 
 	// Start of user code block custom items

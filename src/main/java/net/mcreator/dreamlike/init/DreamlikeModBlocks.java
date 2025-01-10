@@ -13,7 +13,6 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.dreamlike.block.DreamylushgrassBlock;
 import net.mcreator.dreamlike.block.DreamycobblestoneBlock;
 import net.mcreator.dreamlike.block.DreamyGrassBlock;
-import net.mcreator.dreamlike.block.DreamwaternocolorBlock;
 import net.mcreator.dreamlike.block.DreamwaterBlock;
 import net.mcreator.dreamlike.block.AngelsandBlock;
 import net.mcreator.dreamlike.DreamlikeMod;
@@ -25,7 +24,6 @@ public class DreamlikeModBlocks {
 	public static final RegistryObject<Block> DREAMYCOBBLESTONE = REGISTRY.register("dreamycobblestone", () -> new DreamycobblestoneBlock());
 	public static final RegistryObject<Block> ANGELSAND = REGISTRY.register("angelsand", () -> new AngelsandBlock());
 	public static final RegistryObject<Block> DREAMWATER = REGISTRY.register("dreamwater", () -> new DreamwaterBlock());
-	public static final RegistryObject<Block> DREAMWATERNOCOLOR = REGISTRY.register("dreamwaternocolor", () -> new DreamwaternocolorBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
