@@ -25,6 +25,12 @@ public class DreamlikeModTabs {
 				tabData.accept(DreamlikeModItems.DECIMATOR.get());
 				tabData.accept(DreamlikeModItems.BLOOD_SCYTHE.get());
 				tabData.accept(DreamlikeModItems.FIREYGREATSTAFF.get());
+				tabData.accept(DreamlikeModItems.TERMINATOR.get());
+				tabData.accept(DreamlikeModItems.GALAXY_PICKAXE.get());
+				tabData.accept(DreamlikeModItems.COSMOS_ARMOUR_HELMET.get());
+				tabData.accept(DreamlikeModItems.COSMOS_ARMOUR_CHESTPLATE.get());
+				tabData.accept(DreamlikeModItems.COSMOS_ARMOUR_LEGGINGS.get());
+				tabData.accept(DreamlikeModItems.COSMOS_ARMOUR_BOOTS.get());
 			})
 
 					.build());
