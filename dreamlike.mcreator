@@ -127,6 +127,22 @@
           "src/main/java/net/mcreator/dreamlike/item/FireygreatstaffItem.java"
         ]
       }
+    },
+    {
+      "name": "Angelsand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angelsand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dreamlike/loot_tables/blocks/angelsand.json",
+          "src/main/resources/assets/dreamlike/models/item/angelsand.json",
+          "src/main/resources/assets/dreamlike/models/block/angelsand.json",
+          "src/main/resources/assets/dreamlike/blockstates/angelsand.json",
+          "src/main/java/net/mcreator/dreamlike/block/AngelsandBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -134,6 +150,9 @@
   "tag_elements": {
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:Fireygreatstaff"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Angelsand"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:Decimator"
@@ -152,6 +171,7 @@
       "item_group.dreamlike.dreamlike": "Dreamlike",
       "item.dreamlike.little_bertha": "Little Bertha",
       "item.dreamlike.blood_scythe": "Blood Scythe",
+      "block.dreamlike.angelsand": "Angelsand",
       "block.dreamlike.dreamylushgrass": "Dreamylushgrass",
       "block.dreamlike.dreamycobblestone": "Dreamycobblestone",
       "item.dreamlike.decimator": "Decimator",

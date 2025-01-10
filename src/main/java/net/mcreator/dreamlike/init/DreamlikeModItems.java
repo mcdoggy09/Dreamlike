@@ -27,6 +27,7 @@ public class DreamlikeModItems {
 	public static final RegistryObject<Item> DECIMATOR = REGISTRY.register("decimator", () -> new DecimatorItem());
 	public static final RegistryObject<Item> BLOOD_SCYTHE = REGISTRY.register("blood_scythe", () -> new BloodScytheItem());
 	public static final RegistryObject<Item> FIREYGREATSTAFF = REGISTRY.register("fireygreatstaff", () -> new FireygreatstaffItem());
+	public static final RegistryObject<Item> ANGELSAND = block(DreamlikeModBlocks.ANGELSAND);
 
 	// Start of user code block custom items
 	// End of user code block custom items

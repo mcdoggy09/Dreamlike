@@ -25,6 +25,7 @@ public class DreamlikeModTabs {
 				tabData.accept(DreamlikeModItems.DECIMATOR.get());
 				tabData.accept(DreamlikeModItems.BLOOD_SCYTHE.get());
 				tabData.accept(DreamlikeModItems.FIREYGREATSTAFF.get());
+				tabData.accept(DreamlikeModBlocks.ANGELSAND.get().asItem());
 			})
 
 					.build());
