@@ -328,7 +328,7 @@
     {
       "name": "Dreamwater",
       "type": "fluid",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dreamwater",
       "metadata": {
@@ -346,7 +346,7 @@
     {
       "name": "LittleBerthaLivingEntityIsHitWithTool",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "little_bertha_living_entity_is_hit_with_tool",
       "metadata": {
@@ -364,7 +364,7 @@
     {
       "name": "DecimatorLivingEntityIsHitWithTool",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "decimator_living_entity_is_hit_with_tool",
       "metadata": {
