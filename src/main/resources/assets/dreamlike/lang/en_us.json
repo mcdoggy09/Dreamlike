@@ -1,16 +1,10 @@
 {
-  "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
   "block.dreamlike.dreamy_grass": "Dreamy Grass",
   "item.dreamlike.little_bertha": "Little Bertha",
   "item_group.dreamlike.dreamlike": "Dreamlike",
-  "block.dreamlike.dreamylushgrass": "Dreamylushgrass",
-  "item.dreamlike.cosmos_armour_chestplate": "Cosmos Armour Chestplate",
-  "item.dreamlike.decimator": "Decimator",
-  "item.dreamlike.terminator": "Terminator",
-  "item.dreamlike.cosmos_armour_boots": "Cosmos Armour Boots",
-  "item.dreamlike.cosmos_armour_leggings": "Cosmos Armour Leggings",
-  "item.dreamlike.cosmos_armour_helmet": "Cosmos Armour Helmet",
   "item.dreamlike.blood_scythe": "Blood Scythe",
+  "block.dreamlike.dreamylushgrass": "Dreamylushgrass",
   "block.dreamlike.dreamycobblestone": "Dreamycobblestone",
+  "item.dreamlike.decimator": "Decimator",
   "item.dreamlike.fireygreatstaff": "Firey great staff"
 }

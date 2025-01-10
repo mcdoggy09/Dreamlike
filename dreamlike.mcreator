@@ -129,55 +129,6 @@
       }
     },
     {
-      "name": "TerminatorLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "terminator_living_entity_is_hit_with_tool",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamlike/procedures/TerminatorLivingEntityIsHitWithToolProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Terminator",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "terminator",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/dreamlike/models/item/terminator.json",
-          "src/main/java/net/mcreator/dreamlike/item/TerminatorItem.java"
-        ]
-      }
-    },
-    {
-      "name": "GalaxyPickaxeRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "galaxy_pickaxe_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamlike/procedures/GalaxyPickaxeRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "GalaxyPickaxe",
       "type": "tool",
       "compiles": true,
@@ -187,6 +138,24 @@
         "files": [
           "src/main/resources/assets/dreamlike/models/item/galaxy_pickaxe.json",
           "src/main/java/net/mcreator/dreamlike/item/GalaxyPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CosmosArmourBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmos_armour_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/procedures/CosmosArmourBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     },
@@ -227,32 +196,14 @@
       }
     },
     {
-      "name": "CosmosArmourLeggingsTickEvent",
+      "name": "TerminatorLivingEntityIsHitWithTool",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cosmos_armour_leggings_tick_event",
+      "registry_name": "terminator_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamlike/procedures/CosmosArmourLeggingsTickEventProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CosmosArmourBootsTickEvent",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cosmos_armour_boots_tick_event",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamlike/procedures/CosmosArmourBootsTickEventProcedure.java"
+          "src/main/java/net/mcreator/dreamlike/procedures/TerminatorLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -277,6 +228,71 @@
           "src/main/resources/assets/dreamlike/models/item/cosmos_armour_chestplate.json"
         ]
       }
+    },
+    {
+      "name": "GalaxyPickaxeRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galaxy_pickaxe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/procedures/GalaxyPickaxeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CosmosArmourLeggingsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmos_armour_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/procedures/CosmosArmourLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Terminator",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dreamlike/models/item/terminator.json",
+          "src/main/java/net/mcreator/dreamlike/item/TerminatorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Angelsand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angelsand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dreamlike/loot_tables/blocks/angelsand.json",
+          "src/main/resources/assets/dreamlike/models/block/angelsand.json",
+          "src/main/resources/assets/dreamlike/blockstates/angelsand.json",
+          "src/main/resources/assets/dreamlike/models/item/angelsand.json",
+          "src/main/java/net/mcreator/dreamlike/block/AngelsandBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -285,6 +301,9 @@
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:GalaxyPickaxe",
       "~CUSTOM:Fireygreatstaff"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Angelsand"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:Decimator"
@@ -300,17 +319,11 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
       "block.dreamlike.dreamy_grass": "Dreamy Grass",
       "item.dreamlike.little_bertha": "Little Bertha",
       "item_group.dreamlike.dreamlike": "Dreamlike",
       "block.dreamlike.dreamylushgrass": "Dreamylushgrass",
-      "item.dreamlike.cosmos_armour_chestplate": "Cosmos Armour Chestplate",
       "item.dreamlike.decimator": "Decimator",
-      "item.dreamlike.terminator": "Terminator",
-      "item.dreamlike.cosmos_armour_boots": "Cosmos Armour Boots",
-      "item.dreamlike.cosmos_armour_leggings": "Cosmos Armour Leggings",
-      "item.dreamlike.cosmos_armour_helmet": "Cosmos Armour Helmet",
       "item.dreamlike.blood_scythe": "Blood Scythe",
       "block.dreamlike.dreamycobblestone": "Dreamycobblestone",
       "item.dreamlike.fireygreatstaff": "Firey great staff"
