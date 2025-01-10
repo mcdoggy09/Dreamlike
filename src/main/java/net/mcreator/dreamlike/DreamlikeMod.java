@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.dreamlike.init.DreamlikeModTabs;
+import net.mcreator.dreamlike.init.DreamlikeModItems;
+import net.mcreator.dreamlike.init.DreamlikeModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class DreamlikeMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		DreamlikeModBlocks.REGISTRY.register(bus);
+
+		DreamlikeModItems.REGISTRY.register(bus);
+
+		DreamlikeModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

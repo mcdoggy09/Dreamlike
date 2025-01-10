@@ -1,11 +1,58 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Dreamlike",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamlike",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DreamyGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamy_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dreamlike/models/block/dreamy_grass.json",
+          "src/main/resources/assets/dreamlike/blockstates/dreamy_grass.json",
+          "src/main/java/net/mcreator/dreamlike/block/DreamyGrassBlock.java",
+          "src/main/resources/data/dreamlike/loot_tables/blocks/dreamy_grass.json",
+          "src/main/resources/assets/dreamlike/models/item/dreamy_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "Dreamylushgrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamylushgrass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/block/DreamylushgrassBlock.java",
+          "src/main/resources/assets/dreamlike/models/block/dreamylushgrass.json",
+          "src/main/resources/assets/dreamlike/blockstates/dreamylushgrass.json",
+          "src/main/resources/assets/dreamlike/models/item/dreamylushgrass.json",
+          "src/main/resources/data/dreamlike/loot_tables/blocks/dreamylushgrass.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.dreamlike.dreamy_grass": "Dreamy Grass",
+      "item_group.dreamlike.dreamlike": "Dreamlike",
+      "block.dreamlike.dreamylushgrass": "Dreamylushgrass"
+    }
   },
   "foldersRoot": {
     "name": "~",
