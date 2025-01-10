@@ -19,8 +19,6 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dreamlike.init.DreamlikeModTabs;
 import net.mcreator.dreamlike.init.DreamlikeModItems;
-import net.mcreator.dreamlike.init.DreamlikeModFluids;
-import net.mcreator.dreamlike.init.DreamlikeModFluidTypes;
 import net.mcreator.dreamlike.init.DreamlikeModBlocks;
 
 import java.util.function.Supplier;
@@ -48,9 +46,6 @@ public class DreamlikeMod {
 		DreamlikeModItems.REGISTRY.register(bus);
 
 		DreamlikeModTabs.REGISTRY.register(bus);
-
-		DreamlikeModFluids.REGISTRY.register(bus);
-		DreamlikeModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -326,27 +326,9 @@
       }
     },
     {
-      "name": "Dreamwater",
-      "type": "fluid",
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "dreamwater",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamlike/fluid/DreamwaterFluid.java",
-          "src/main/java/net/mcreator/dreamlike/item/DreamwaterItem.java",
-          "src/main/resources/assets/dreamlike/models/block/dreamwater.json",
-          "src/main/java/net/mcreator/dreamlike/block/DreamwaterBlock.java",
-          "src/main/resources/assets/dreamlike/blockstates/dreamwater.json",
-          "src/main/java/net/mcreator/dreamlike/fluid/types/DreamwaterFluidType.java",
-          "src/main/resources/assets/dreamlike/models/item/dreamwater_bucket.json"
-        ]
-      }
-    },
-    {
       "name": "LittleBerthaLivingEntityIsHitWithTool",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "little_bertha_living_entity_is_hit_with_tool",
       "metadata": {
@@ -364,7 +346,7 @@
     {
       "name": "DecimatorLivingEntityIsHitWithTool",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "decimator_living_entity_is_hit_with_tool",
       "metadata": {
@@ -383,9 +365,6 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:Dreamwater"
-    ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:GalaxyPickaxe",
       "~CUSTOM:Fireygreatstaff"
@@ -409,10 +388,8 @@
     "en_us": {
       "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
       "block.dreamlike.dreamy_grass": "Dreamy Grass",
-      "fluid.dreamlike.dreamwater": "Dreamwater",
       "item_group.dreamlike.dreamlike": "Dreamlike",
       "item.dreamlike.little_bertha": "Little Bertha",
-      "item.dreamlike.dreamwater_bucket": "Dreamwater Bucket",
       "block.dreamlike.dreamylushgrass": "Dreamylushgrass",
       "item.dreamlike.cosmos_armour_chestplate": "Cosmos Armour Chestplate",
       "item.dreamlike.decimator": "Decimator",
@@ -422,7 +399,6 @@
       "item.dreamlike.cosmos_armour_leggings": "Cosmos Armour Leggings",
       "item.dreamlike.cosmos_armour_helmet": "Cosmos Armour Helmet",
       "item.dreamlike.blood_scythe": "Blood Scythe",
-      "block.dreamlike.dreamwater": "Dreamwater",
       "block.dreamlike.angelsand": "Angelsand",
       "block.dreamlike.dreamycobblestone": "Dreamycobblestone",
       "item.dreamlike.fireygreatstaff": "Firey great staff"
