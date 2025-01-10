@@ -1,27 +1,11 @@
 {
-  "mod_elements": [
-    {
-      "name": "Ee",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ee",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamlike/item/EeItem.java",
-          "src/main/resources/assets/dreamlike/models/item/ee.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "item.dreamlike.ee": "Ee"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
