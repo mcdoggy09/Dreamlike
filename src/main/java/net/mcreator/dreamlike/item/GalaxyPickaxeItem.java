@@ -21,7 +21,7 @@ public class GalaxyPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 8.5f;
 			}
 
 			public float getAttackDamageBonus() {

@@ -319,10 +319,10 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
       "block.dreamlike.dreamy_grass": "Dreamy Grass",
-      "item_group.dreamlike.dreamlike": "Dreamlike",
+      "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
       "item.dreamlike.little_bertha": "Little Bertha",
+      "item_group.dreamlike.dreamlike": "Dreamlike",
       "block.dreamlike.dreamylushgrass": "Dreamylushgrass",
       "item.dreamlike.cosmos_armour_chestplate": "Cosmos Armour Chestplate",
       "item.dreamlike.decimator": "Decimator",
