@@ -21,6 +21,8 @@ public class DreamlikeModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dreamlike.dreamlike")).icon(() -> new ItemStack(Items.EMERALD)).displayItems((parameters, tabData) -> {
 				tabData.accept(DreamlikeModBlocks.DREAMY_GRASS.get().asItem());
 				tabData.accept(DreamlikeModBlocks.DREAMYCOBBLESTONE.get().asItem());
+				tabData.accept(DreamlikeModItems.LITTLE_BERTHA.get());
+				tabData.accept(DreamlikeModItems.DECIMATOR.get());
 				tabData.accept(DreamlikeModItems.BLOOD_SCYTHE.get());
 				tabData.accept(DreamlikeModItems.FIREYGREATSTAFF.get());
 				tabData.accept(DreamlikeModItems.GALAXY_PICKAXE.get());
