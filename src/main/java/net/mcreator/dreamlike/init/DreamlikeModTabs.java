@@ -32,6 +32,7 @@ public class DreamlikeModTabs {
 				tabData.accept(DreamlikeModItems.COSMOS_ARMOUR_BOOTS.get());
 				tabData.accept(DreamlikeModItems.TERMINATOR.get());
 				tabData.accept(DreamlikeModBlocks.ANGELSAND.get().asItem());
+				tabData.accept(DreamlikeModItems.MAGNIUM_INGOT.get());
 			})
 
 					.build());

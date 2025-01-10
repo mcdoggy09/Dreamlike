@@ -293,6 +293,37 @@
           "src/main/java/net/mcreator/dreamlike/block/AngelsandBlock.java"
         ]
       }
+    },
+    {
+      "name": "GalaxyPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galaxy_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamlike/procedures/GalaxyPickaxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsMagniunIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dreamlike/models/item/magnium_ingot.json",
+          "src/main/java/net/mcreator/dreamlike/item/OsMagniunIngotItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -319,14 +350,15 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
       "block.dreamlike.dreamy_grass": "Dreamy Grass",
-      "item_group.dreamlike.dreamlike": "Dreamlike",
+      "item.dreamlike.galaxy_pickaxe": "Galaxy Pickaxe",
       "item.dreamlike.little_bertha": "Little Bertha",
+      "item_group.dreamlike.dreamlike": "Dreamlike",
       "block.dreamlike.dreamylushgrass": "Dreamylushgrass",
       "item.dreamlike.cosmos_armour_chestplate": "Cosmos Armour Chestplate",
       "item.dreamlike.decimator": "Decimator",
       "item.dreamlike.terminator": "Terminator",
+      "item.dreamlike.magnium_ingot": "Magniun Ingot",
       "item.dreamlike.cosmos_armour_boots": "Cosmos Armour Boots",
       "item.dreamlike.cosmos_armour_leggings": "Cosmos Armour Leggings",
       "item.dreamlike.cosmos_armour_helmet": "Cosmos Armour Helmet",
