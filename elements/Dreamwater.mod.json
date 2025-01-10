@@ -4,9 +4,9 @@
   "definition": {
     "name": "Dreamwater",
     "bucketName": "Dreamwater Bucket",
-    "textureStill": "dreamwaterv1",
-    "textureFlowing": "dreamwaterv1",
-    "tintType": "Water fog",
+    "textureStill": "dreamwatertill",
+    "textureFlowing": "dreamwaterflowing",
+    "tintType": "No tint",
     "canMultiply": true,
     "flowRate": 5,
     "levelDecrease": 1,
@@ -36,7 +36,7 @@
       "fixedValue": []
     },
     "resistance": 100.0,
-    "luminance": 8,
+    "luminance": 2,
     "lightOpacity": 1,
     "emissiveRendering": true,
     "tickRate": 0,
