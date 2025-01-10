@@ -61,7 +61,7 @@
     {
       "name": "LittleBertha",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "little_bertha",
       "metadata": {
@@ -74,7 +74,7 @@
     {
       "name": "Decimator",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "decimator",
       "metadata": {
@@ -322,42 +322,6 @@
         "files": [
           "src/main/resources/assets/dreamlike/models/item/magnium_ingot.json",
           "src/main/java/net/mcreator/dreamlike/item/OsMagniunIngotItem.java"
-        ]
-      }
-    },
-    {
-      "name": "LittleBerthaLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "little_bertha_living_entity_is_hit_with_tool",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamlike/procedures/LittleBerthaLivingEntityIsHitWithToolProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "DecimatorLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "decimator_living_entity_is_hit_with_tool",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamlike/procedures/DecimatorLivingEntityIsHitWithToolProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
         ]
       }
     }
