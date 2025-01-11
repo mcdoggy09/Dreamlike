@@ -14,6 +14,7 @@ import net.mcreator.dreamlike.block.DreamylushgrassBlock;
 import net.mcreator.dreamlike.block.DreamycobblestoneBlock;
 import net.mcreator.dreamlike.block.DreamyGrassBlock;
 import net.mcreator.dreamlike.block.DreamwaterBlock;
+import net.mcreator.dreamlike.block.DiminsionalLeavesBlock;
 import net.mcreator.dreamlike.block.DimensionalLogBlock;
 import net.mcreator.dreamlike.block.CosmosOreBlock;
 import net.mcreator.dreamlike.block.AngelsandBlock;
@@ -28,6 +29,7 @@ public class DreamlikeModBlocks {
 	public static final RegistryObject<Block> DREAMWATER = REGISTRY.register("dreamwater", () -> new DreamwaterBlock());
 	public static final RegistryObject<Block> DIMENSIONAL_LOG = REGISTRY.register("dimensional_log", () -> new DimensionalLogBlock());
 	public static final RegistryObject<Block> COSMOS_ORE = REGISTRY.register("cosmos_ore", () -> new CosmosOreBlock());
+	public static final RegistryObject<Block> DIMINSIONAL_LEAVES = REGISTRY.register("diminsional_leaves", () -> new DiminsionalLeavesBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -39,6 +39,7 @@ public class DreamlikeModItems {
 	public static final RegistryObject<Item> DREAMWATER_BUCKET = REGISTRY.register("dreamwater_bucket", () -> new DreamwaterItem());
 	public static final RegistryObject<Item> DIMENSIONAL_LOG = block(DreamlikeModBlocks.DIMENSIONAL_LOG);
 	public static final RegistryObject<Item> COSMOS_ORE = block(DreamlikeModBlocks.COSMOS_ORE);
+	public static final RegistryObject<Item> DIMINSIONAL_LEAVES = block(DreamlikeModBlocks.DIMINSIONAL_LEAVES);
 
 	// Start of user code block custom items
 	// End of user code block custom items

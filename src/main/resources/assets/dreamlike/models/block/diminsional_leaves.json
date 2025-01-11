@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dreamlike:block/diminsional_leaves",
+    "particle": "dreamlike:block/diminsional_leaves"
+  }
+}

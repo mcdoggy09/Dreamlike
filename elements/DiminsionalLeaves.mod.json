@@ -2,20 +2,21 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "cosmosore",
-    "textureTop": "cosmosore",
-    "textureLeft": "cosmosore",
-    "textureFront": "cosmosore",
-    "textureRight": "cosmosore",
-    "textureBack": "cosmosore",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "diminsional_leaves",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "diminsional_leaves",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Leaves",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -34,11 +35,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Cosmos Ore",
+    "name": "Diminsional Leaves",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 4.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -47,7 +48,7 @@
         "value": "CUSTOM:Dreamlike"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -57,7 +58,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 1,
     "material": {
       "value": "NONE"
     },
@@ -84,7 +85,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "AMETHYST_CLUSTER"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -101,7 +102,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 2,
+    "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
